@@ -65,6 +65,6 @@ def handle_message(message):
 if __name__ == '__main__':
     # Установка вебхука
     bot.remove_webhook()
-    bot.set_webhook(url='https://ecstaticpc.ru/webhook')
+    bot.set_webhook(url='https://sity.ru/webhook')
 
     app.run()
